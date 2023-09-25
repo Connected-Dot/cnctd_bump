@@ -1,6 +1,6 @@
 [package]
 name = "cnctd_bump"
-version = "0.1.7"
+version = "0.1.8"
 edition = "2021"
 authors = ["Connected Dot Inc.", "Kyle Ebner <kyle@cnctd.world>"]
 description = "CLI to bump versions for Rust and NPM projects"
@@ -19,7 +19,7 @@ path = "src/main.rs"
 
 [dependencies]
 anyhow = "1.0.75"
-clap = { version = "4.4.3", features = ["derive"] }
+clap = { version = "4.4.4", features = ["derive"] }
 cnctd_cargo = { version = "0.1.2", path = "../../../modules/rust/cnctd_cargo" }
 cnctd_npm = { version = "0.1.0", path = "../../../modules/rust/cnctd_npm" }
 tokio = { version = "1.32.0", features = ["full"] }
